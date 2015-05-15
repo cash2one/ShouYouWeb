@@ -1,0 +1,14 @@
+[
+    {
+        "PlatFormServerId": "S1",
+        "PlatFormServerName": "双线",
+        "CPServerId": "1",
+        "ChargeRate": "200",
+        "OpenDateTime": "2014-11-12 14:00:00",
+        "LoginApiUrl": "",
+        "ChargeApiUrl": "http://120.24.248.84:12000",
+        "LoginApiKey": "",
+        "ChargeApiKey": "YYSH-B28B15DABB1E69D2B73F8BF6CB0E2173",
+        "SendItemDomain": "192.168.1.201"
+    }
+]

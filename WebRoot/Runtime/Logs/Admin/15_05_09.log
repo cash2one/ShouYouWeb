@@ -1,0 +1,12 @@
+[ 2015-05-09T16:17:26+08:00 ] 127.0.0.1 /Admin/Index/index
+ERR: 模板不存在:/Library/WebServer/Documents/ShouYouWeb/WebRoot/Admin/View/layout.html
+
+[ 2015-05-09T16:17:54+08:00 ] 127.0.0.1 /Admin/Index/index
+ERR: 模板不存在:/Library/WebServer/Documents/ShouYouWeb/WebRoot/Admin/View/layout.html
+
+[ 2015-05-09T16:18:04+08:00 ] 127.0.0.1 /Admin/Index/index
+ERR: 模板不存在:/Library/WebServer/Documents/ShouYouWeb/WebRoot/Admin/View/layout.html
+
+[ 2015-05-09T16:18:23+08:00 ] 127.0.0.1 /Admin/Index/index
+ERR: 模板不存在:/Library/WebServer/Documents/ShouYouWeb/WebRoot/Admin/View/layout.html
+

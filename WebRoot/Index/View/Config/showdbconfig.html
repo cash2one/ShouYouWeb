@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>数据库配置</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th colspan="2">数据库配置</th>
+    </tr>
+    </thead>
+    <tbody>
+    <form action="<{:U('Index/Config/updateDbConfig')}>" method="post">
+        <tr>
+            <td>数据库类型:</td>
+            <td><input type="text" name="DB_TYPE" value="<{$dbConfigs.DB_TYPE}>"/></td>
+        </tr>
+        <tr>
+            <td>服务器地址:</td>
+            <td><input type="text" name="DB_HOST" value="<{$dbConfigs.DB_HOST}>"/></td>
+        </tr>
+        <tr>
+            <td>数据库名:</td>
+            <td><input type="text" name="DB_NAME" value="<{$dbConfigs.DB_NAME}>"/></td>
+        </tr>
+        <tr>
+            <td>数据库账号:</td>
+            <td><input type="text" name="DB_USER" value="<{$dbConfigs.DB_USER}>"/></td>
+        </tr>
+        <tr>
+            <td>数据库密码:</td>
+            <td><input type="text" name="DB_PWD" value="<{$dbConfigs.DB_PWD}>"/></td>
+        </tr>
+        <tr>
+            <td>数据库端口:</td>
+            <td><input type="text" name="DB_PORT" value="<{$dbConfigs.DB_PORT}>"/></td>
+        <tr>
+            <td>数据表前缀:</td>
+            <td><input type="text" name="DB_PREFIX" value="<{$dbConfigs.DB_PREFIX}>"/></td>
+        </tr>
+        <tr>
+            <td>数据库默认字符集:</td>
+            <td><input type="text" name="DB_CHARSET" value="<{$dbConfigs.DB_CHARSET}>"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="修改配置"/></td>
+        </tr>
+    </form>
+    </tbody>
+</table>
+</body>
+</html>

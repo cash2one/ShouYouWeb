@@ -1,0 +1,9 @@
+[ 2015-05-13T14:02:25+08:00 ] 127.0.0.1 /Admin/GameType/showtype
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-05-13T14:05:45+08:00 ] 127.0.0.1 /Admin/GameType/showtype
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+[ 2015-05-13T14:15:38+08:00 ] 127.0.0.1 /Admin/GameType/showtype
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+

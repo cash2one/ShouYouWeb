@@ -1,0 +1,18 @@
+[ 2015-05-13T01:51:30+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-13T13:49:52+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-13T13:50:16+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+

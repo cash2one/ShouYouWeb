@@ -1,0 +1,9 @@
+[ 2015-05-08T13:02:19+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SELECT * FROM `youlu_users` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-05-08T21:55:09+08:00 ] 127.0.0.1 /Index/User/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_1678wan_gamename.youlu_user' doesn't exist
+

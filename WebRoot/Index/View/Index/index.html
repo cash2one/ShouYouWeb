@@ -1,0 +1,167 @@
+<!--content 开始-->
+<!--面包屑导航 开始-->
+<div class="game_linkpath"><span>您的位置：</span>&nbsp;首页</div>
+<!--面包屑导航 结束-->
+<div class="game_content_out">
+    <div class="game-content-left">
+        <div class="game-content-left-inner" style="position: static;">
+            <div class="game-big-qrcode" id="show-big-qrcode">
+                <div class="game-big-qrcode-cover"></div>
+                <!--下载游戏二维码-->
+                <div class="show-game-big-qrcode" id="big-qrcode-show">二维码</div>
+            </div>
+            <div class="clear"></div>
+            <h3 class="game-content-left-title"><{$game_info_json.game_name}></h3>
+
+            <div class="game-content-left-thumb"><img src="http://i1.1688wan.com/userfiles/applogo/_1412762741713.jpg">
+            </div>
+
+            <div class="game-content-left-go2zq"><a href="javascript:CBox($('#down_qr'),'二维码扫描')">扫描二维码</a></div>
+
+
+            <div class="game-list-title-1 mt20"></div>
+
+            <div id="down_qr" style="display: none">
+                <div class="qr_code_img">
+                    <div style="float: left;">
+                        <img src="<{$Think.const.STATIC_IMAGE_URL}>QrCode/apk.png"/>
+                        <a class="qr_tip">安卓下载</a>
+                    </div>
+                    <div style="float: right;">
+                        <img src="<{$Think.const.STATIC_IMAGE_URL}>QrCode/ios.png"/>
+                        <a class="qr_tip qr_pg">IOS下载</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <ul class="game-content-left-down">
+                <if condition="$game_info_json.game_down_az neq null">
+                    <li class="game-content-az">
+                        <button>Android下载
+                        </button>
+                    </li>
+                </if>
+                <if condition="$game_info_json.game_down_pg neq null">
+                    <li class="game-content-pg">
+                        <button onclick="downloads('1412762805','http://news.7k7k.com/chaoxiyou/','')">IOS越狱下载</button>
+                    </li>
+                </if>
+            </ul>
+
+
+            <div class="game-content-gameinfo">
+                <ul>
+                    <li>收费模式：<{$game_info_json.charge_model}></li>
+                    <li>软件语言：<{$game_info_json.game_lang}></li>
+                    <li>类型：<{$game_info_json.game_type}></li>
+                    <li>题材：<{$game_info_json.game_tag}></li>
+                    <li>更新：<{$game_info_json.game_update_time}></li>
+                </ul>
+            </div>
+            <div class="game-list-title-1 mt20">
+                <div class="game-list-title-in-1">
+                    <h3>常玩评分</h3>
+                </div>
+            </div>
+
+
+            <div class="game-content-left-pingce-rank"><span><{$game_info_json.game_score}></span></div>
+            <div class="game-content-left-site">
+
+
+                <a href="javascript:void(0)">常玩微信公众号</a>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="game-content-right">
+        <div class="game-content-right-inner">
+            <div class="game-content-right-bar">
+                <ul>
+                    <li class="current"><a href="/">游戏版本</a></li>
+                    <li><a href="/#game-thumbs">游戏截图</a></li>
+
+                    <li><a href="/#charge_sale">充值优惠</a></li>
+
+
+                </ul>
+            </div>
+            <!--右边 内容 开始-->
+            <div class="game-content-right-list">
+                <div class="game-content-com-title">
+                    <h3 class="game-content-com-title-yxjj"><span></span>游戏版本</h3></div>
+                <div class="clear"></div>
+                <div class="game-content-right-introduce">
+                    <{$game_version_html}>
+                </div>
+                <div class="clear"></div>
+
+                <div id="charge_sale" class="game-content-com-title"><h3 class="game-content-com-title-rmtj">
+                    <span></span>充值优惠</h3></div>
+                <div class="clear"></div>
+                <div class="game-slide-gamelist">
+                    <{$game_charge_info_html}>
+
+                </div>
+
+                <div class="game-content-com-title" id="game-thumbs"><h3 class="game-content-com-title-yxjt">
+                    <span></span>游戏截图
+                </h3></div>
+                <div class="clear"></div>
+                <div class="inkPhoBox">
+                    <!--游戏截图 开始-->
+                    <div class="mod18">
+                        <span id="prevTop" class="btn prev"></span>
+                        <span id="nextTop" class="btn next"></span>
+
+                        <div class="bigImgBox">
+                            <a id="prev" class="btn prev"><</a>
+
+                            <div id="picBox" class="picBox">
+                                <ul class="cf">
+
+                                    <foreach name="game_pic_json" item="l_vo">
+                                        <if condition="$l_vo.game_pic_path neq null">
+                                            <li><img src="<{$l_vo.game_pic_path}>"></li>
+                                        </if>
+                                    </foreach>
+
+                                </ul>
+                            </div>
+                            <a id="next" class="btn next">></a>
+                        </div>
+                        <div class="smImgBox">
+                            <div id="listBox" class="listBox">
+                                <div class="thumblist">
+                                    <foreach name="game_pic_json" item="s_vo">
+                                        <if condition="$s_vo.game_pic_path neq null">
+                                        <span><img
+                                                src="<{$s_vo.game_pic_path}>"></span>
+                                        </if>
+                                    </foreach>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <!--游戏截图 结束-->
+                </div>
+
+
+            </div>
+            <!--右边 内容 结束-->
+            <div class="clear"></div>
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+</div>
+<!--content 结束-->
+
+<div class="clear"></div>
+

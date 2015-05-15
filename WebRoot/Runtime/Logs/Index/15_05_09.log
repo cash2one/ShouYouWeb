@@ -1,0 +1,132 @@
+[ 2015-05-09T01:41:27+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T01:41:33+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T01:43:35+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-05-09T01:49:26+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T01:49:30+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-05-09T01:49:38+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T01:53:09+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-05-09T01:56:29+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T01:58:09+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T02:01:49+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T02:03:51+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T02:05:45+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T02:08:27+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-05-09T02:12:38+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T02:15:18+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='wolaiwan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-09T15:23:05+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:23:25+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:23:35+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:23:49+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:24:11+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:24:36+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2015-05-09T15:24:37+08:00 ] 127.0.0.1 /Index/Public/getSession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
