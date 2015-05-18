@@ -16,4 +16,23 @@ class IndexController extends Controller
     {
         $this->display();
     }
+
+    public function getJson()
+    {
+        $data = array(
+            array(
+                "id" => 1,
+                "text" => "我是一个测试",
+                "state" > "close",
+                "url"=>"http://www.qq.com"
+            ),
+            array(
+                "id" => 2,
+                "text" => "我是一个测试2",
+                "state" > "close"
+            )
+        );
+
+        echo json_encode($data);
+    }
 } 
