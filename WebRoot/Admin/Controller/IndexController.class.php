@@ -17,6 +17,11 @@ class IndexController extends Controller
         $this->display();
     }
 
+
+    public function login(){
+        $this->display();
+    }
+
     public function getJson()
     {
         $data = array(

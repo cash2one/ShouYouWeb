@@ -13,6 +13,25 @@
              $.messager.alert("删除成功","删除成功！","error");
              }
              });*/
+
+            /*      $("#mainTabs").tabs({
+
+             });*/
+
+            $("#nav .easyui-tree").tree({
+                onClick: function (node) {
+                    if ($("#mainTabs").tabs("exists", node.text)) {
+                        $("#mainTabs").tabs("select", node.text);
+                    } else {
+                        $("#mainTabs").tabs("add", {
+                            title: node.text,
+                            closable: true,
+                            href: node.url
+                        })
+                    }
+                    console.info(node);
+                }
+            });
         })
     </script>
 </head>
@@ -23,51 +42,51 @@
 <div region="south" border="true" split="true" style="height: 40px;">
 
 </div>
-<div region="west" split="true" title="导航菜单" style="width: 170px;">
+<div region="west" id="nav" split="true" title="导航菜单" style="width: 170px;">
     <div class="easyui-accordion">
-        <div title="账号管理" iconcls="icon-save">
-            <ul class="easyui-tree">
+        <div title="账号管理">
+            <ul class="easyui-tree" data-options="url:'/Admin/View/Index/nav.json'">
                 <li>
-                    <span><a href="#">账号列表</a></span>
+                    <span>账号列表</span>
                 </li>
                 <li>
-                    <span><a href="#">添加账号</a></span>
-                </li>
-            </ul>
-        </div>
-        <div title="服务器管理" iconcls="icon-save">
-            <ul class="easyui-tree">
-                <li>
-                    <span><a href="#">服务器列表</a></span>
-                </li>
-                <li>
-                    <span><a href="#">添加服务器</a></span>
+                    <span>添加账号</span>
                 </li>
             </ul>
         </div>
-        <div title="CP管理" iconcls="icon-save">
+        <div title="服务器管理">
             <ul class="easyui-tree">
                 <li>
-                    <span><a href="#">CP列表</a></span>
+                    <span>服务器列表</span>
                 </li>
                 <li>
-                    <span><a href="#">添加CP</a></span>
+                    <span>添加服务器</span>
                 </li>
             </ul>
         </div>
-        <div title="游戏类型&标签管理" iconcls="icon-save">
+        <div title="CP管理">
             <ul class="easyui-tree">
                 <li>
-                    <span><a href="#">类型列表</a></span>
+                    <span url="http://www.baidu.com/">CP列表</span>
                 </li>
                 <li>
-                    <span><a href="#">标签列表</a></span>
+                    <span>添加CP</span>
+                </li>
+            </ul>
+        </div>
+        <div title="游戏类型&标签管理">
+            <ul class="easyui-tree">
+                <li>
+                    <span>类型列表</span>
                 </li>
                 <li>
-                    <span><a href="#">添加类型</a></span>
+                    <span>标签列表</span>
                 </li>
                 <li>
-                    <span><a href="#">添加标签</a></span>
+                    <span>添加类型</span>
+                </li>
+                <li>
+                    <span>添加标签</span>
                 </li>
             </ul>
         </div>
@@ -75,7 +94,11 @@
     </div>
 </div>
 <div region="center" id="mainPanle">
-
+    <div id="mainTabs" class="easyui-tabs" fit="true" border="false">
+        <div title="起始页" style="padding:10px">
+            欢迎来到后台管理
+        </div>
+    </div>
 </div>
 </body>
 </html>

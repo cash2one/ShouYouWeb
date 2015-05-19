@@ -1,0 +1,62 @@
+{__NOLAYOUT__}
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="<{:U('Min/index?g=admin_css')}>" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+        #login {
+            padding: 6px 0 0 0;
+        }
+
+        p {
+            height: 22px;
+            line-height: 22px;
+            padding: 4px 0 0 25px;
+        }
+
+        input.easyui-textbox {
+            height: 30px;
+            line-height: 30px;
+            padding: 0 3px;
+        }
+    </style>
+
+</head>
+<body>
+<div id="login">
+    <p>管理员账号：<input class="easyui-textbox easyui-validatebox" name="manger" id="manger" type="text"
+                    data-options="required:true,missingMessage:'请输入管理员账号',iconCls:'icon-man'"></p>
+
+    <p>管理员密码：<input class="easyui-textbox easyui-validatebox" name="password" id="password" type="password"
+                    data-options="required:true,missingMessage:'请输入管理员密码',iconCls:'icon-lock'"></p>
+</div>
+<div id="btn">
+    <a href="#" class="easyui-linkbutton">登陆后台</a>
+</div>
+</body>
+<script type="text/javascript" src="<{:U('Min/index?g=admin_js')}>"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#login").dialog({
+            title: "管理员登陆",
+            width: 300,
+            height: 180,
+            modal: true,
+            iconCls: 'icon-lock',
+            buttons: "#btn"
+        });
+        $("#btn a").click(function () {
+            //console.info($("#manger").validatebox("isValid"))
+            if (!$("#manger").validatebox("isValid")) {
+                //console.info($("#manger").validatebox("isValid"))
+                $("#manger").focus();
+            }
+        });
+
+    });
+</script>
+</html>
